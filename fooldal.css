@@ -1,3 +1,5 @@
+
+
 body {
     background-color: rgb(236, 184, 106);
 }
@@ -16,6 +18,49 @@ h1 {
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 15px;
-    padding: 15px;
+    padding-top: 30px;
+}
+
+p {
+    font-family: 'Oxanium', sans-serif;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+footer {
+    background-color: aquamarine;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    float: left;
+    clear: both;
+    position: fixed;
+}
+
+li {
+    background-color: azure;
+    border-radius: 25%;
+    font-size: 30px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li:hover {
+    width: 220px;
+    transition: 2s;
+    text-align: center;
+    transition-delay: 0,5s;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
 }
 
